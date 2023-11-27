@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
-        <div className="navbar-start">
+      <div className="navbar bg-white">
+        <div className="navbar-start z-50">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -22,7 +22,105 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"></ul>
+            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52">            <li>
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/gallery"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Gallery
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/trainer"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Trainer
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/classes"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Classes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/dashboard"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Dashboard
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/community"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Community
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/classes"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                login
+              </NavLink>
+            </li>
+          </ul>
           </div>
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
@@ -128,7 +226,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end z-50">
           <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
