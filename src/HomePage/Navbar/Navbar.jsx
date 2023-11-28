@@ -1,4 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import Login from "../../Pages/Login/Login";
+import SignUp from "../../Pages/Sign Up/SignUp";
 
 const Navbar = () => {
   return (
@@ -22,105 +24,107 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52">            <li>
-              <NavLink
-                to="/"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/gallery"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                Gallery
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/trainer"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                Trainer
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/classes"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                Classes
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/dashboard"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                Dashboard
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/community"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                Community
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/classes"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#538CDF] underline"
-                    : ""
-                }
-              >
-                login
-              </NavLink>
-            </li>
-          </ul>
+            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52">
+              {" "}
+              <li>
+                <NavLink
+                  to="/"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/gallery"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  Gallery
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/trainer"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  Trainer
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/classes"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  Classes
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/dashboard"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  Dashboard
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/community"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  Community
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/classes"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#538CDF] underline"
+                      : ""
+                  }
+                >
+                  login
+                </NavLink>
+              </li>
+            </ul>
           </div>
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
@@ -224,6 +228,7 @@ const Navbar = () => {
                 login
               </NavLink>
             </li>
+
           </ul>
         </div>
         <div className="navbar-end z-50">
@@ -257,7 +262,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
