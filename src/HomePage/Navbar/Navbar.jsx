@@ -212,7 +212,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/classes"
+                to="/login"
                 className={({ isActive, isPending }) =>
                   isPending
                     ? "pending"
@@ -257,6 +257,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
