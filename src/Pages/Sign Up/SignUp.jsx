@@ -3,18 +3,17 @@ import { Link } from "react-router-dom";
 import img from "../../assets/404/signup.jpg";
 
 const SignUp = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
 
-    const {
-        register,
-        handleSubmit,
-        formState: { errors },reset,
-      } = useForm();
-    
-      const onSubmit =data =>{
-        
-        console.log(data);
-        reset()
-      }
+  const onSubmit = (data) => {
+    console.log(data);
+    reset();
+  };
   return (
     <div className="flex flex-col  md:flex-row items-center ">
       <img src={img} className=" rounded-lg md:w-2/4" />
@@ -69,14 +68,21 @@ const SignUp = () => {
             </label>
             <input
               type="password"
-              {...register("password",{ required: true, pattern:/^(?=.*[0-9])(?=.*[A-Z])(?=.*[@$!%*#?&]).{7,16}$/i })}
+              {...register("password", {
+                required: true,
+                pattern: /^(?=.*[0-9])(?=.*[A-Z])(?=.*[@$!%*#?&]).{7,16}$/i,
+              })}
               placeholder="password"
               className="input input-bordered"
             />
             <label className="label"></label>
           </div>
           {errors.password && (
-            <span className="text-red-700">Password must contain one digit from 1 to 9 , one uppercase letter, a special character and it must be 7-16 characters long.!  Example: Aa123@#$ </span>
+            <span className="text-red-700">
+              Password must contain one digit from 1 to 9 , one uppercase
+              letter, a special character and it must be 7-16 characters long.!
+              Example: Aa123@#${" "}
+            </span>
           )}
 
           <div className="form-control mt-6">
