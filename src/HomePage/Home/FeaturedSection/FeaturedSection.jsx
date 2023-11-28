@@ -4,8 +4,8 @@ const FeaturedSection = () => {
   return (
     <div>
       <SectionHeading
-        titel="Class Time"
-        subtitel="Table"
+        titel="Featured"
+        // subtitel="Table"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem
 voluptatem obcaecati!"
       ></SectionHeading>
