@@ -1,12 +1,12 @@
+import Featured from "../../Featured/Featured";
 import Banner from "../Banner/Banner";
-import FeaturedSection from "../FeaturedSection/FeaturedSection";
 
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <FeaturedSection></FeaturedSection>
+            <Featured></Featured>
             
         </div>
     );
