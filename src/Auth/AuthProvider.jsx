@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
+  signInWithEmailAndPassword,
   signOut,
   updateProfile,
 } from "firebase/auth";
@@ -26,15 +27,15 @@ const AuthProvider = ({ children }) => {
     });
   };
 
+  const usersignOut = () => {
+    return signOut(auth);
+  };
 
 
-
-
-const usersignOut = () =>{
-  return signOut(auth)
-}
-
-
+  const usersignInWithEmailAndPassword =(email, password)=>{
+    setLoading(true);
+    return signInWithEmailAndPassword(auth, email, password)
+  }
 
 
   useEffect(() => {
@@ -53,6 +54,7 @@ const usersignOut = () =>{
     usersignOut,
     userupdateProfile,
     createUserWithEmail,
+    usersignInWithEmailAndPassword,
   };
 
   return (
