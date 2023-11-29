@@ -21,8 +21,8 @@ const Featured = () => {
         paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem
 voluptatem obcaecati!"
       ></SectionHeading>
-      <Marquee>
-        <div className="flex gap-5 md:gap-5 lg:gap-20 my-6">
+      <Marquee pauseOnHover>
+        <div className="flex  my-6">
           {featured.map((item) => (
             <FeaturedCard key={item.id} item={item}></FeaturedCard>
           ))}

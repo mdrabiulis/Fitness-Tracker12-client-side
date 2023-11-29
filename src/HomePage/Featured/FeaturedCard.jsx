@@ -4,7 +4,7 @@ const FeaturedCard = ({ item }) => {
   const { title, subtitle, img } = item;
   return (
     <div className="flex">
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl ml-7">
         <figure className="px-10 pt-10">
           <img src={img} alt={title} className="rounded-xl bg-[#FF5D28]" />
         </figure>
