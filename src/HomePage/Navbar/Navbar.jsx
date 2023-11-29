@@ -1,8 +1,23 @@
-import { Link, NavLink } from "react-router-dom";
-import Login from "../../Pages/Login/Login";
-import SignUp from "../../Pages/Sign Up/SignUp";
+import { NavLink } from "react-router-dom";
+import useFirebase from "../../Hooks/Firebase/useFirebase";
+import Swal from "sweetalert2";
 
 const Navbar = () => {
+  const { user, usersignOut } = useFirebase();
+  console.log(user);
+  const hendleusersignOut = () => {
+    usersignOut()
+      .then(() => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Your work has been saved",
+          showConfirmButton: false,
+          timer: 1500
+        });
+      })
+      .catch(() => {});
+  };
   return (
     <div>
       <div className="navbar fixed z-50 bg-white bg-opacity-60">
@@ -215,6 +230,37 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
+              {/* <NavLink
+                to="/login"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                login
+              </NavLink> */}
+            </li>
+          </ul>
+        </div>
+        <div className="navbar-end z-50">
+          <div className="dropdown dropdown-end">
+            {user ? (
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost btn-circle avatar online"
+              >
+                <div className="w-10 rounded-full">
+                  <img
+                    alt="Tailwind CSS Navbar component"
+                    src={user?.photoURL}
+                  />
+                </div>
+              </div>
+            ) : (
               <NavLink
                 to="/login"
                 className={({ isActive, isPending }) =>
@@ -227,36 +273,17 @@ const Navbar = () => {
               >
                 login
               </NavLink>
-            </li>
+            )}
 
-          </ul>
-        </div>
-        <div className="navbar-end z-50">
-          <div className="dropdown dropdown-end">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost btn-circle avatar online"
-            >
-              <div className="w-10 rounded-full">
-                <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-                />
-              </div>
-            </div>
             <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
+                <a className="justify-between">{user?.displayName}</a>
               </li>
               <li>
                 <a>Settings</a>
               </li>
               <li>
-                <a>Logout</a>
+                <button onClick={hendleusersignOut}>Logout</button>
               </li>
             </ul>
           </div>
