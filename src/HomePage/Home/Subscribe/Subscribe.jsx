@@ -1,14 +1,29 @@
-import { useForm } from "react-hook-form";
 import SectionHeading from "../../../ShareComponent/SectionHeading/SectionHeading";
 import img from "../../../assets/New folder/banner.jpg";
+import useAdmin from "../../../Hooks/Admin/useAdmin";
+import { useForm } from "react-hook-form";
+import Swal from "sweetalert2";
 import "./subscribe.css";
 
 const Subscribe = () => {
+  const adminData = useAdmin();
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
-    reset;
+    // console.log(data);
+    // const subscribeData ={data }
+    adminData.post("/newsletter", data).then((res) => {
+      if (res.data.acknowledged) {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Your subscribe has been successful",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        reset();
+      }
+    });
   };
 
   return (
@@ -49,9 +64,8 @@ const Subscribe = () => {
           </form>
         </div>
         <div className="">
-          <img src={img} alt="" className="w-96"/>
+          <img src={img} alt="" className="w-96" />
           {/* <h2 className="text-4xl font-bold mt-4">Subscribe To  Emails</h2> */}
-          
         </div>
       </div>
     </div>
