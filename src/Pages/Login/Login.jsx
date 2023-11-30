@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import img from "../../assets/404/login2.jpg";
 import useFirebase from "../../Hooks/Firebase/useFirebase";
 import Swal from "sweetalert2";
+import "./login.css"
 
 const Login = () => {
   const { usersignInWithEmailAndPassword } = useFirebase();
@@ -29,7 +30,7 @@ const Login = () => {
       });
   };
   return (
-    <div className="flex flex-col  md:flex-row items-center ">
+    <div className="flex flex-col login-item md:flex-row items-center ">
       <img src={img} className=" rounded-lg md:w-2/4" />
 
       <div className="w-full lg:w-[35%]">

@@ -12,7 +12,7 @@ const AboutUs = () => {
         subtitel={"Us"}
         paragraph={"BEST IS SELF MOTIVATIONSTAY FOCUSSED STAY FIT & HEALTHY"}
       ></SectionHeading>
-      <div className="flex gap-6 max-w-7xl mx-auto items-center">
+      <div className="flex flex-col md:flex-row gap-6 max-w-7xl mx-auto items-center">
         <div className="space-y-6">
           <div className="flex gap-6 items-center">
             <img src={img3} alt="" />
@@ -51,7 +51,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="">
-          <div className="grid grid-cols-3 ">
+          <div className="grid grid-cols-2 md:grid-cols-3 ">
             <img src={img4} alt="" />
             <img src={img4} alt="" />
             <img src={img4} alt="" />

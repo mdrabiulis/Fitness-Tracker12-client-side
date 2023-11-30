@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import img from "../../assets/404/signup.jpg";
 import useFirebase from "../../Hooks/Firebase/useFirebase";
 import Swal from "sweetalert2";
+import './signUp.css'
+
 
 const SignUp = () => {
   const { userupdateProfile, createUserWithEmail } = useFirebase();
@@ -41,10 +43,10 @@ const SignUp = () => {
     reset();
   };
   return (
-    <div className="flex flex-col  md:flex-row items-center ">
-      <img src={img} className=" rounded-lg md:w-2/4" />
+    <div className=" flex flex-col signup-item md:flex-row items-center ">
+      <img src={img} className=" rounded-lg md:w-2/4 " />
 
-      <div className="w-full lg:w-[35%]">
+      <div className="w-full lg:w-[35%] ">
         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
           <div className="form-control">
             <label className="label">
