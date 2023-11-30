@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import SocialIcon from "../../../ShareComponent/SocialIcon/SocialIcon";
 
 const TeamSectionCard = ({ item }) => {
   const { name, img, Special } = item;
@@ -14,6 +15,7 @@ const TeamSectionCard = ({ item }) => {
         </h4>
         <p className="text-[#FF5D28] font-medium ">{Special}</p>
       </div>
+      <SocialIcon></SocialIcon>
     </div>
   );
 };
