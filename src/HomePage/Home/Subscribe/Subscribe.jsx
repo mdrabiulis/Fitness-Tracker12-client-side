@@ -10,8 +10,7 @@ const Subscribe = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
-    // console.log(data);
-    // const subscribeData ={data }
+
     adminData.post("/newsletter", data).then((res) => {
       if (res.data.acknowledged) {
         Swal.fire({
@@ -36,7 +35,7 @@ const Subscribe = () => {
           "Be the first to know about new collections and exclusive offers."
         }
       ></SectionHeading>
-      <div className="flex subscribe py-12 justify-around items-center">
+      <div className="flex flex-col md:flex-row subscribe py-12 justify-around items-center">
         <div className="text-center w-3/5 ">
           <form className="flex flex-col xl:flex-row items-center justify-center gap-3">
             <input
@@ -63,9 +62,8 @@ const Subscribe = () => {
             </button>
           </form>
         </div>
-        <div className="">
+        <div className="mt-4 md:mt-0">
           <img src={img} alt="" className="w-96" />
-          {/* <h2 className="text-4xl font-bold mt-4">Subscribe To  Emails</h2> */}
         </div>
       </div>
     </div>

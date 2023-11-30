@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Victor T Shaffer",
+        "Experience ": "05 Years",
+        "Age": "35 years",
+        "Special": "Bodybuilding Coach",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 95,
+            "Meditation": 80,
+            "Yoga": 85
+        },
+        "img": "https://i.ibb.co/WyHkRpw/team-image2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Angela K Williams",
+        "Experience ": "07 Years",
+        "Age": "23 years",
+        "Special": "Ashtanga Yoga",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 95,
+            "Meditation": 80,
+            "Yoga": 85
+        },
+        "img": "https://i.ibb.co/mDhJHfq/trainer-details.jpg"
+    },
+    {
+        "id": 3,
+        "name": "George L Martin",
+        "Experience ": "03 Years",
+        "Age": "36 years",
+        "Special": "Fitness Instructor",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 95,
+            "Meditation": 80,
+            "Yoga": 85
+        },
+        "img": "https://i.ibb.co/Ltr2jK2/team-image5.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Judith D Youngblood",
+        "Experience ": "08 Years",
+        "Age": "28 years",
+        "Special": "Cardio & Conditioning",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 75,
+            "Meditation": 85,
+            "Yoga": 80
+        },
+        "img": "https://i.ibb.co/DR1Wgm6/team-image8.jpg"
+    }
+]
