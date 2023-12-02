@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Victor T Shaffer",
         "Experience ": "05 Years",
         "Age": "35 years",
@@ -13,10 +12,9 @@
             "Meditation": 80,
             "Yoga": 85
         },
-        "img": "https://i.ibb.co/WyHkRpw/team-image2.jpg"
+        "img": "https://i.postimg.cc/brpZmY0F/trainer1.png"
     },
     {
-        "id": 2,
         "name": "Angela K Williams",
         "Experience ": "07 Years",
         "Age": "23 years",
@@ -29,10 +27,9 @@
             "Meditation": 80,
             "Yoga": 85
         },
-        "img": "https://i.ibb.co/mDhJHfq/trainer-details.jpg"
+        "img": "https://i.postimg.cc/NGk95TBh/trainer3.png"
     },
     {
-        "id": 3,
         "name": "George L Martin",
         "Experience ": "03 Years",
         "Age": "36 years",
@@ -45,10 +42,9 @@
             "Meditation": 80,
             "Yoga": 85
         },
-        "img": "https://i.ibb.co/Ltr2jK2/team-image5.jpg"
+        "img": "https://i.postimg.cc/J47yJnzs/trainer2.png"
     },
     {
-        "id": 4,
         "name": "Judith D Youngblood",
         "Experience ": "08 Years",
         "Age": "28 years",
@@ -61,6 +57,66 @@
             "Meditation": 85,
             "Yoga": 80
         },
-        "img": "https://i.ibb.co/DR1Wgm6/team-image8.jpg"
+        "img": "https://i.postimg.cc/SNZnGhnD/trainer4.png"
+    },
+    {
+        "name": "Judith D Youngblood",
+        "Experience ": "08 Years",
+        "Age": "28 years",
+        "Special": "Cardio & Conditioning",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 75,
+            "Meditation": 85,
+            "Yoga": 80
+        },
+        "img": "https://i.postimg.cc/T3pp74mG/trainer5.png"
+    },
+    {
+        "name": "Judith D Youngblood",
+        "Experience ": "08 Years",
+        "Age": "28 years",
+        "Special": "Cardio & Conditioning",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 75,
+            "Meditation": 85,
+            "Yoga": 80
+        },
+        "img": "https://i.postimg.cc/GmV9ZxJD/trainer6.png"
+    },
+    {
+        "name": "Judith D Youngblood",
+        "Experience ": "08 Years",
+        "Age": "28 years",
+        "Special": "Cardio & Conditioning",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 75,
+            "Meditation": 85,
+            "Yoga": 80
+        },
+        "img": "https://i.postimg.cc/MGBXxfdF/trainer7.png"
+    },
+    {
+        "name": "Judith D Youngblood",
+        "Experience ": "08 Years",
+        "Age": "28 years",
+        "Special": "Cardio & Conditioning",
+        "Phone": "+123 4567 8910",
+        "Email": "abcd@example.com",
+        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
+        "Skills": {
+            "Fitness": 75,
+            "Meditation": 85,
+            "Yoga": 80
+        },
+        "img": "https://i.postimg.cc/PxkJqf7r/trainer8.png"
     }
 ]
