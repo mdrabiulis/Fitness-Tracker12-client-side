@@ -7,6 +7,7 @@ import ErrorPages from "../Pages/Error/ErrorPages";
 import Gallery from "../Pages/Gallery/Gallery";
 import Trainer from "../Pages/Trainer/Trainer";
 import TrainerInfo from "../Pages/Trainer/INFORMATION/TrainerInfo";
+import TrainerAddpage from "../Pages/Trainer/TrainerAddpage/TrainerAddpage";
 
 const Router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const Router = createBrowserRouter([
         {
           path:"/trainer",
           element:<Trainer></Trainer>
+        },
+        {
+          path:"/cat",
+          element:<TrainerAddpage></TrainerAddpage>
         },
         {
           path:"/trainer/:id",

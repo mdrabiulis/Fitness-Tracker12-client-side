@@ -14,7 +14,7 @@ const TeamSection = () => {
     });
   }, [userData]);
 
-  const teamdata = team.slice(4)
+  const teamdata = team.slice(0,4)
 
 
   return (
@@ -28,7 +28,7 @@ const TeamSection = () => {
       ></SectionHeading>
       <div className="flex flex-wrap mx-4 gap-6 justify-center my-6">
         {teamdata.map((item) => (
-          <TeamSectionCard key={item.id} item={item}></TeamSectionCard>
+          <TeamSectionCard key={item._id} item={item}></TeamSectionCard>
         ))}
       </div>
     </div>
