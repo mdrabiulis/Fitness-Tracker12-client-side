@@ -24,7 +24,7 @@ const Trainer = () => {
       ></SectionHeading>
       <div className="flex flex-wrap mx-4 gap-6 justify-center my-6">
         {trainer.map((item) => (
-          <TrainerCard key={item.id} item={item}></TrainerCard>
+          <TrainerCard key={item._id} item={item}></TrainerCard>
         ))}
       </div>
     </div>

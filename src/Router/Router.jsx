@@ -6,6 +6,7 @@ import SignUp from "../Pages/Sign Up/SignUp";
 import ErrorPages from "../Pages/Error/ErrorPages";
 import Gallery from "../Pages/Gallery/Gallery";
 import Trainer from "../Pages/Trainer/Trainer";
+import TrainerInfo from "../Pages/Trainer/INFORMATION/TrainerInfo";
 
 const Router = createBrowserRouter([
   {
@@ -32,6 +33,12 @@ const Router = createBrowserRouter([
         {
           path:"/trainer",
           element:<Trainer></Trainer>
+        },
+        {
+          path:"/trainer/:id",
+          element:<TrainerInfo></TrainerInfo>,
+          loader: ({params})=>fetch(`http://localhost:5000/trainer/${params.id}`)
+          
         },
     ],
   },
