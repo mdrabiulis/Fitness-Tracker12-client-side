@@ -8,6 +8,7 @@ import Gallery from "../Pages/Gallery/Gallery";
 import Trainer from "../Pages/Trainer/Trainer";
 import TrainerInfo from "../Pages/Trainer/INFORMATION/TrainerInfo";
 import TrainerAddpage from "../Pages/Trainer/TrainerAddpage/TrainerAddpage";
+import PrivateRoute from "../Pages/Private/PrivateRoute";
 
 const Router = createBrowserRouter([
   {
@@ -37,7 +38,7 @@ const Router = createBrowserRouter([
         },
         {
           path:"/cat",
-          element:<TrainerAddpage></TrainerAddpage>
+          element:<PrivateRoute><TrainerAddpage></TrainerAddpage></PrivateRoute>,
         },
         {
           path:"/trainer/:id",
