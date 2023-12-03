@@ -12,6 +12,7 @@ import PrivateRoute from "../Pages/Private/PrivateRoute";
 import Classes from "../Pages/Classes Page/Classes";
 import Details from "../Pages/Classes Page/Details";
 import ClassAdd from "../Pages/Classes Page/ClassAdd";
+import BookedPage from "../Pages/BookedPage/BookedPage";
 
 const Router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const Router = createBrowserRouter([
         {
           path:"/cat",
           element:<PrivateRoute><TrainerAddpage></TrainerAddpage></PrivateRoute>,
+        },
+        {
+          path:"/bookedpage",
+          element:<PrivateRoute><BookedPage></BookedPage></PrivateRoute>,
         },
         {
           path:"/classes",

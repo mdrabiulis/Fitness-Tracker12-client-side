@@ -46,7 +46,7 @@ const navigate = useNavigate()
           timer: 1500,
         });
          reset();
-         navigate('/')
+         navigate('/bookedpage')
       }
     }
   };
