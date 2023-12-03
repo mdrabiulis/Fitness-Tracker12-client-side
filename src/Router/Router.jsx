@@ -13,6 +13,10 @@ import Classes from "../Pages/Classes Page/Classes";
 import Details from "../Pages/Classes Page/Details";
 import ClassAdd from "../Pages/Classes Page/ClassAdd";
 import BookedPage from "../Pages/BookedPage/BookedPage";
+import Admin from "../DashboardPage/Admin/Admin";
+import Dashboard from "../DashboardPage/Dashboard/Dashboard";
+import Member from "../DashboardPage/Member/Member";
+import Trainers from "../DashboardPage/Trainer/Trainers";
 
 const Router = createBrowserRouter([
   {
@@ -69,5 +73,23 @@ const Router = createBrowserRouter([
         },
     ],
   },
+  {
+    path: "dashboard",
+    element:<Dashboard></Dashboard>,
+    children:[
+      {
+        path:"admin",
+        element:<Admin></Admin>
+      },
+      {
+        path:"trainer",
+        element:<Trainers></Trainers>
+      },
+      {
+        path:"member",
+        element:<Member></Member>
+      },
+    ]
+  }
 ]);
 export default Router;
