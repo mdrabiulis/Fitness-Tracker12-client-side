@@ -11,6 +11,7 @@ import TrainerAddpage from "../Pages/Trainer/TrainerAddpage/TrainerAddpage";
 import PrivateRoute from "../Pages/Private/PrivateRoute";
 import Classes from "../Pages/Classes Page/Classes";
 import Details from "../Pages/Classes Page/Details";
+import ClassAdd from "../Pages/Classes Page/ClassAdd";
 
 const Router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const Router = createBrowserRouter([
         {
           path:"/classes",
           element:<Classes></Classes>,
+        },
+        {
+          path:"/classesadd",
+          element:<ClassAdd></ClassAdd>,
         },
         {
           path:"/details/:id",

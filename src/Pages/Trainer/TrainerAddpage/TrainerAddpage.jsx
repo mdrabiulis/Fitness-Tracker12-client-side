@@ -2,6 +2,7 @@ import Swal from "sweetalert2";
 import useFirebase from "../../../Hooks/Firebase/useFirebase";
 import useUser from "../../../Hooks/User500/useUser";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
 
 const imageKey = import.meta.env.VITE_IMAGE_KEY;
 const imageApi = `https://api.imgbb.com/1/upload?key=${imageKey}`;
@@ -9,17 +10,11 @@ const imageApi = `https://api.imgbb.com/1/upload?key=${imageKey}`;
 const TrainerAddpage = () => {
   const { user } = useFirebase();
   const userData = useUser();
-
+const navigate = useNavigate()
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = async (data) => {
     const img = { image: data.image[0] };
-    const skills = {
-      meditation: parseFloat(data.meditation),
-      fitness: parseFloat(data.fitness),
-      yoga: parseFloat(data.yoga),
-    };
-
     const res = await userData.post(imageApi, img, {
       headers: {
         "content-type": "multipart/form-data",
@@ -30,27 +25,28 @@ const TrainerAddpage = () => {
       const trainer = {
         name: data.name,
         email: data.email,
-        experience: data.experience,
         age: data.age,
         img: res.data.data.display_url,
         introduction: data.introduction,
-        phone: data.phone,
-        timeslot: data.timeslot,
-        special: data.special,
+        timeslotday: data.timeslot,
         timeslotweek: data.timeslotweek,
-        skills: skills,
+        phone: data.phone,
+        yoga: data.yoga,
+        fitness: data.fitness,
+        meditation: data.meditation,
       };
 
-      const trainerRes = await userData.post("/trainer", trainer);
+      const trainerRes = await userData.post("/applied", trainer);
       if (trainerRes.data.insertedId) {
         Swal.fire({
           position: "top-end",
           icon: "success",
-          title: "Your work has been saved",
+          title: "Your apply  has been successful",
           showConfirmButton: false,
           timer: 1500,
         });
-        reset();
+         reset();
+         navigate('/')
       }
     }
   };
@@ -61,6 +57,7 @@ const TrainerAddpage = () => {
         <div className="rounded-md  bg-[#eeeff8] px-10">
           <div className="grid md:grid-cols-4 gap-6  ">
             <div className="grid col-span-2  w-full mx-auto">
+              {/* Name */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Name</span>
@@ -73,6 +70,7 @@ const TrainerAddpage = () => {
                   required
                 />
               </div>
+              {/* Email */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -87,6 +85,7 @@ const TrainerAddpage = () => {
                   required
                 />
               </div>
+              {/* Age */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Age</span>
@@ -99,31 +98,7 @@ const TrainerAddpage = () => {
                   required
                 />
               </div>
-
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Experience</span>
-                </label>
-                <input
-                  type="text"
-                  {...register("experience", { required: true })}
-                  placeholder="Experience"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Special</span>
-                </label>
-                <input
-                  type="text"
-                  {...register("special", { required: true })}
-                  placeholder="Special"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
+              {/* Profile Image */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Profile Image</span>
@@ -137,43 +112,7 @@ const TrainerAddpage = () => {
             </div>
             {/* ============================ */}
             <div className="col-span-2  w-full mx-auto">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Yoga</span>
-                </label>
-                <input
-                  type="number"
-                  {...register("yoga", { required: true })}
-                  placeholder="Yoga"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Meditation</span>
-                </label>
-                <input
-                  type="number"
-                  {...register("meditation", { required: true })}
-                  placeholder="Meditation"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Fitness</span>
-                </label>
-                <input
-                  type="number"
-                  {...register("fitness", { required: true })}
-                  placeholder="Fitness"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
-
+              {/* Available time in a day */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Available time in a day</span>
@@ -186,6 +125,8 @@ const TrainerAddpage = () => {
                   required
                 />
               </div>
+
+              {/* Available Time in a week */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Available Time in a week</span>
@@ -198,6 +139,8 @@ const TrainerAddpage = () => {
                   required
                 />
               </div>
+
+              {/* Phone Number */}
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Phone Number</span>
@@ -210,8 +153,51 @@ const TrainerAddpage = () => {
                   required
                 />
               </div>
+
+              {/* checkbox */}
+              <div className="">
+                <div className="flex justify-around my-5">
+                  <div className="form-control">
+                    <label className="cursor-pointer label">
+                      <span className="label-text">Yoga</span>
+                      <input
+                        type="checkbox"
+                        value={"yoga"}
+                        onChange={(e) => e.target.value}
+                        {...register("yoga")}
+                        className="checkbox checkbox-warning ml-2"
+                      />
+                    </label>
+                  </div>
+                  <div className="form-control">
+                    <label className="cursor-pointer label">
+                      <span className="label-text">Fitness</span>
+                      <input
+                        type="checkbox"
+                        value={"fitness"}
+                        onChange={(e) => e.target.value}
+                        {...register("fitness")}
+                        className="checkbox checkbox-warning ml-2"
+                      />
+                    </label>
+                  </div>
+                  <div className="form-control">
+                    <label className="cursor-pointer label">
+                      <span className="label-text">Meditation</span>
+                      <input
+                        type="checkbox"
+                        value={"meditation"}
+                        onChange={(e) => e.target.value}
+                        {...register("meditation")}
+                        className="checkbox checkbox-warning ml-2"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          {/* Introduction */}
           <div className="form-control  ">
             <label className="label">
               <span className="label-text">Introduction</span>

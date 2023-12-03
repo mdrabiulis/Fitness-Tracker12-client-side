@@ -26,7 +26,10 @@ const Trainer = () => {
         {trainer.map((item) => (
           <TrainerCard key={item._id} item={item}></TrainerCard>
         ))}
+
+
       </div>
+
     </div>
   );
 };

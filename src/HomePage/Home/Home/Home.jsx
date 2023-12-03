@@ -5,6 +5,7 @@ import Subscribe from "../Subscribe/Subscribe";
 import TeamSection from "../TeamSection/TeamSection";
 
 
+
 const Home = () => {
     return (
         <div>
@@ -13,6 +14,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Subscribe></Subscribe>
             <TeamSection></TeamSection>
+            
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             
         </div>

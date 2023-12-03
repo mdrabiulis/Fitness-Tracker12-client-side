@@ -22,6 +22,7 @@ const Details = () => {
                     <h2 className="">Author: {author}</h2>
 
                 </div>
+                <button className="uppercase bg-[#FF5D28] p-1 md:p-2 rounded-md mb-5 text-white">Book now</button>
                     
                 </div>
             </div>
