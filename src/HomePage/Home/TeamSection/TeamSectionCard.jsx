@@ -24,6 +24,6 @@ const TeamSectionCard = ({ item }) => {
 };
 
 TeamSectionCard.propTypes = {
-  item: PropTypes.object,
+  item: PropTypes.object
 };
 export default TeamSectionCard;
