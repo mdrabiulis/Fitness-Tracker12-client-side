@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 
 
 const useCart = () => {
+    
     // const admindata = useAdmin()
     const {data: cart=[]}=useQuery({
         queryKey:['cart'],

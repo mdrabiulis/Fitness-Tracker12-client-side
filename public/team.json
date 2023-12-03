@@ -1,122 +1,67 @@
 [
     {
-        "name": "Victor T Shaffer",
-        "Experience ": "05 Years",
-        "Age": "35 years",
-        "Special": "Bodybuilding Coach",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 95,
-            "Meditation": 80,
-            "Yoga": 85
-        },
-        "img": "https://i.postimg.cc/brpZmY0F/trainer1.png"
+      "image": "https://i.ibb.co/SRhw6M5/7.png",
+      "name": "YogaFit Restore",
+      "date": "2023-01-01",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.c sollicitudin..",
+      "author": "Backdoor",
+      "categories": "Home, Special Needs, YogaFit"
     },
     {
-        "name": "Angela K Williams",
-        "Experience ": "07 Years",
-        "Age": "23 years",
-        "Special": "Ashtanga Yoga",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 95,
-            "Meditation": 80,
-            "Yoga": 85
-        },
-        "img": "https://i.postimg.cc/NGk95TBh/trainer3.png"
+      "image": "https://i.ibb.co/Cn7qY1N/8.png",
+      "name": "YogaFit Core",
+      "date": "2023-02-15",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
+      "author": "Jane Smith",
+      "categories": "For you, Home, YogaFit"
     },
     {
-        "name": "George L Martin",
-        "Experience ": "03 Years",
-        "Age": "36 years",
-        "Special": "Fitness Instructor",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 95,
-            "Meditation": 80,
-            "Yoga": 85
-        },
-        "img": "https://i.postimg.cc/J47yJnzs/trainer2.png"
+      "image": "https://i.ibb.co/tbfJg5Q/9.png",
+      "name": "Private & Group Lessons",
+      "date": "2023-03-20",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
+      "author": "Sam Johnson",
+      "categories": "For you, Home, YogaFit"
     },
     {
-        "name": "Judith D Youngblood",
-        "Experience ": "08 Years",
-        "Age": "28 years",
-        "Special": "Cardio & Conditioning",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 75,
-            "Meditation": 85,
-            "Yoga": 80
-        },
-        "img": "https://i.postimg.cc/SNZnGhnD/trainer4.png"
+      "image": "image_url_4.jpg",
+      "name": "YogaFit For Beginners",
+      "date": "2023-04-10",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
+      "author": "Emily Brown",
+      "categories": "For you, Home, YogaFit"
     },
     {
-        "name": "Judith D Youngblood",
-        "Experience ": "08 Years",
-        "Age": "28 years",
-        "Special": "Cardio & Conditioning",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 75,
-            "Meditation": 85,
-            "Yoga": 80
-        },
-        "img": "https://i.postimg.cc/T3pp74mG/trainer5.png"
+      "image": "https://i.ibb.co/fFtwVjZ/5.png",
+      "name": "The Skinny Advantage In Muscle Building",
+      "date": "2023-05-05",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequu ntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo rem ipsum quia dolor sit amet, consectetur, adipisci velit.sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "author": "Alex Wilson",
+      "categories": "Muscle Building"
     },
     {
-        "name": "Judith D Youngblood",
-        "Experience ": "08 Years",
-        "Age": "28 years",
-        "Special": "Cardio & Conditioning",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 75,
-            "Meditation": 85,
-            "Yoga": 80
-        },
-        "img": "https://i.postimg.cc/GmV9ZxJD/trainer6.png"
+      "image": "https://i.ibb.co/cYnYQ7y/4.png",
+      "name": "The Skinny Advantage In Muscle Building",
+      "date": "2023-06-18",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
+      "author": "Ella Miller",
+      "categories": "Skinny Advantage In Muscle Building"
     },
     {
-        "name": "Judith D Youngblood",
-        "Experience ": "08 Years",
-        "Age": "28 years",
-        "Special": "Cardio & Conditioning",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 75,
-            "Meditation": 85,
-            "Yoga": 80
-        },
-        "img": "https://i.postimg.cc/MGBXxfdF/trainer7.png"
+      "image": "https://i.ibb.co/3NzXGsG/1.png",
+      "name": "How to keep your Body Healthy",
+      "date": "2023-07-22",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
+      "author": "Liam Davis",
+      "categories": "Body Healthy"
     },
     {
-        "name": "Judith D Youngblood",
-        "Experience ": "08 Years",
-        "Age": "28 years",
-        "Special": "Cardio & Conditioning",
-        "Phone": "+123 4567 8910",
-        "Email": "abcd@example.com",
-        "Introduction": "World is committed to making participation in the event harass ment free on experience for everyone, regardless of leve of expenc gender by identity and expression oriention disability for personal appearance, body size, race, ethnicity, age, reli gion or nationality.",
-        "Skills": {
-            "Fitness": 75,
-            "Meditation": 85,
-            "Yoga": 80
-        },
-        "img": "https://i.postimg.cc/PxkJqf7r/trainer8.png"
+      "image": "https://i.ibb.co/7J3f2Yk/6.png",
+      "name": "YogaFit For Seniors",
+      "date": "2023-08-30",
+      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
+      "author": "Sophia Lee",
+      "categories": "For you, YogaFit"
     }
-]
+  ]
+  

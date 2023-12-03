@@ -10,6 +10,7 @@ import TrainerInfo from "../Pages/Trainer/INFORMATION/TrainerInfo";
 import TrainerAddpage from "../Pages/Trainer/TrainerAddpage/TrainerAddpage";
 import PrivateRoute from "../Pages/Private/PrivateRoute";
 import Classes from "../Pages/Classes Page/Classes";
+import Details from "../Pages/Classes Page/Details";
 
 const Router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const Router = createBrowserRouter([
         {
           path:"/classes",
           element:<Classes></Classes>,
+        },
+        {
+          path:"/details",
+          element:<Details></Details>,
         },
         {
           path:"/trainer/:id",
