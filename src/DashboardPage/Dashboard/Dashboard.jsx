@@ -2,6 +2,10 @@ import { Helmet } from "react-helmet-async";
 import { NavLink, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
+  // todo
+  const isAdmin = true;
+  // const isAdmin = false;
+  
   return (
     <div className="flex">
       <Helmet>
@@ -9,15 +13,34 @@ const Dashboard = () => {
       </Helmet>
       <div className="w-64 min-h-screen bg-orange-400 ml-10">
         <ul className="menu p-4">
-          <li>
-            <NavLink to={"/dashboard/admin"}>Admin</NavLink>
-          </li>
-          <li>
-            <NavLink to={"/dashboard/trainer"}>Trainer</NavLink>
-          </li>
-          <li>
-            <NavLink to={"/dashboard/member"}>Member</NavLink>
-          </li>
+          {isAdmin ? (
+            <>
+            <h1 className="text-4xl">Admin</h1>
+              <li>
+                <NavLink to={"/dashboard/alluser"}>AllUser</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/dashboard/trainer"}>Trainer</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/dashboard/member"}>Member</NavLink>
+              </li>
+            </>
+          ) : (
+            <>
+            <h1>trainer</h1>
+              <li>
+                <NavLink to={"/dashboard/admin"}>Admin</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/dashboard/trainer"}>Trainer</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/dashboard/member"}>Member</NavLink>
+              </li>
+            </>
+          )}
+
           <div className="divider"></div>
           <li>
             <NavLink

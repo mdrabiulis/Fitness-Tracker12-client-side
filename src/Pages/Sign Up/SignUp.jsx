@@ -1,13 +1,19 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import img from "../../assets/404/signup.jpg";
 import useFirebase from "../../Hooks/Firebase/useFirebase";
 import Swal from "sweetalert2";
 import "./signUp.css";
 import { Helmet } from "react-helmet-async";
+import useUser from "../../Hooks/User500/useUser";
+import { useState } from "react";
+import GoogleLogin from "../GoogleLogin/GoogleLogin";
 
 const SignUp = () => {
+  const [userErr, setUserErr] = useState("");
   const { userupdateProfile, createUserWithEmail } = useFirebase();
+  const userData = useUser();
+  const navigate = useNavigate();
 
   const {
     register,
@@ -20,7 +26,25 @@ const SignUp = () => {
     createUserWithEmail(data.email, data.password)
       .then((result) => {
         console.log(result.user);
+        const role = "member";
+        const userInfo = {
+          name: data.name,
+          email: data.email,
+          role,
+        };
 
+        userData.post("/user", userInfo).then((res) => {
+          res.data;
+          console.log(res.data);
+        });
+
+        userupdateProfile(data.name, data.photo)
+          .then(() => {
+            
+          })
+          .catch((error) => {
+            console.log(error.message);
+          });
         Swal.fire({
           position: "top-end",
           icon: "success",
@@ -28,18 +52,19 @@ const SignUp = () => {
           showConfirmButton: false,
           timer: 1500,
         });
-        userupdateProfile(data.name, data.photo)
-          .then(() => {
-            console.log();
-          })
-          .catch((error) => {
-            console.log(error.message);
-          });
+        navigate("/");
+        window.location.reload();
       })
       .catch((error) => {
         console.log(error.message);
+        setUserErr(error.message);
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+        });
       });
-    console.log(data);
+    setUserErr("");
     reset();
   };
   return (
@@ -92,6 +117,7 @@ const SignUp = () => {
                 className="input input-bordered"
               />
             </div>
+
             {errors.email && (
               <span className="text-red-700">This field is required</span>
             )}
@@ -117,7 +143,9 @@ const SignUp = () => {
                 long.! Example: Aa123@#${" "}
               </span>
             )}
-
+            {userErr && (
+              <span className="text-red-700">email-already-in-use</span>
+            )}
             <div className="form-control mt-6">
               <button className="btn  bg-[#F9A31C]  hover:bg-[#ff6c28] text-white text-xl">
                 Sign Up
@@ -133,7 +161,7 @@ const SignUp = () => {
               </Link>
             </h2>
           </form>
-          {/* <GoogleLogin></GoogleLogin> */}
+          <GoogleLogin></GoogleLogin>
         </div>
       </div>
     </div>

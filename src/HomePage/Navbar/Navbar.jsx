@@ -5,7 +5,7 @@ import logo from "../../../public/logo.png";
 
 const Navbar = () => {
   const { user, usersignOut } = useFirebase();
-  console.log(user);
+
   const hendleusersignOut = () => {
     usersignOut()
       .then(() => {
@@ -275,18 +275,21 @@ const Navbar = () => {
                 login
               </NavLink>
             )}
-
-            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li>
-                <a className="justify-between">{user?.displayName}</a>
-              </li>
-              <li>
-                <a>Settings</a>
-              </li>
-              <li>
-                <button onClick={hendleusersignOut}>Logout</button>
-              </li>
-            </ul>
+            {!user ? (
+              ""
+            ) : (
+              <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li>
+                  <a className="justify-between">{user?.displayName}</a>
+                </li>
+                <li>
+                  <a>Settings</a>
+                </li>
+                <li>
+                  <button onClick={hendleusersignOut}>Logout</button>
+                </li>
+              </ul>
+            )}
           </div>
         </div>
       </div>

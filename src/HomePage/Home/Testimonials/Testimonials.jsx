@@ -10,8 +10,6 @@ import "@smastrom/react-rating/style.css";
 
 const Testimonials = () => {
   const [reviews] = useTestimonials();
-  console.log(reviews.length);
-  
   return (
     <div>
       <SectionHeading

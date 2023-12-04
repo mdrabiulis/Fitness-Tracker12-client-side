@@ -17,6 +17,7 @@ import Admin from "../DashboardPage/Admin/Admin";
 import Dashboard from "../DashboardPage/Dashboard/Dashboard";
 import Member from "../DashboardPage/Member/Member";
 import Trainers from "../DashboardPage/Trainer/Trainers";
+import AllUser from "../DashboardPage/Admin/All user/AllUser";
 
 const Router = createBrowserRouter([
   {
@@ -77,17 +78,19 @@ const Router = createBrowserRouter([
     path: "dashboard",
     element:<Dashboard></Dashboard>,
     children:[
-      {
-        path:"admin",
-        element:<Admin></Admin>
-      },
+
       {
         path:"trainer",
         element:<Trainers></Trainers>
       },
+
+
+
+// ========== Admin===============
+
       {
-        path:"member",
-        element:<Member></Member>
+        path:"alluser",
+        element:<AllUser></AllUser>
       },
     ]
   }

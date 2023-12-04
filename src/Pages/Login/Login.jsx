@@ -1,12 +1,21 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import img from "../../assets/404/login2.jpg";
 import useFirebase from "../../Hooks/Firebase/useFirebase";
 import Swal from "sweetalert2";
 import "./login.css";
 import { Helmet } from "react-helmet-async";
+import GoogleLogin from "../GoogleLogin/GoogleLogin";
+import useUser from "../../Hooks/User500/useUser";
+import { useState } from "react";
 
 const Login = () => {
+  const [userErr, setUserErr] = useState("");
+  const userData = useUser();
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  console.log(location);
   const { usersignInWithEmailAndPassword } = useFirebase();
   const {
     register,
@@ -18,6 +27,17 @@ const Login = () => {
     usersignInWithEmailAndPassword(data.email, data.password)
       .then((result) => {
         console.log(result.user);
+        const role = "member";
+        const userInfo = {
+          name: result.user?.displayName,
+          email: result.user?.email,
+          role,
+        };
+        console.log(userInfo);
+         userData.post('/user', userInfo)
+        .then(res =>{res.data
+          console.log(res.data);
+        })
         Swal.fire({
           position: "top-end",
           icon: "success",
@@ -25,10 +45,18 @@ const Login = () => {
           showConfirmButton: false,
           timer: 1500,
         });
+        navigate(location?.state ? location?.state : "/")
       })
       .catch((error) => {
         console.log(error.message);
+        setUserErr(error.message)
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+        });
       });
+      setUserErr("")
   };
   return (
     <div>
@@ -69,7 +97,9 @@ const Login = () => {
             {errors.password && (
               <span className="text-red-700">This field is required</span>
             )}
-
+{userErr && (
+              <span className="text-red-700">invalid-credential</span>
+            )}
             <div className="form-control mt-6">
               <button className="btn  bg-[#F9A31C]  hover:bg-[#ff6c28] text-white text-xl">
                 Login
@@ -85,7 +115,7 @@ const Login = () => {
               </Link>
             </h2>
           </form>
-          {/* <GoogleLogin></GoogleLogin> */}
+          <GoogleLogin></GoogleLogin>
         </div>
       </div>
     </div>
