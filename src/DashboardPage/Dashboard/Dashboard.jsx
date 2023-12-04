@@ -1,9 +1,11 @@
 import { Helmet } from "react-helmet-async";
 import { NavLink, Outlet } from "react-router-dom";
+import useAdminScc from "../Admin/useAdminScc";
 
 const Dashboard = () => {
   // todo
-  const isAdmin = true;
+const [isAdmin] =useAdminScc()
+  // const isAdmin = true;
   // const isAdmin = false;
   
   return (

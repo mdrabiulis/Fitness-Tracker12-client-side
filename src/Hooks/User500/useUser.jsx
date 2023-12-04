@@ -1,11 +1,10 @@
 import axios from "axios";
 
-
 const userData = axios.create({
-    baseURL: "http://localhost:5000",
-  });
+  baseURL: "https://assignment12-server-side-em9z42ifs.vercel.app",
+});
 const useUser = () => {
-    return userData
+  return userData;
 };
 
 export default useUser;

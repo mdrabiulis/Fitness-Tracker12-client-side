@@ -108,7 +108,7 @@ const AllUser = () => {
                       </button>
                     </td>
                   </>
-                ) : item.role === "Trainer" ? (
+                ) : item.role === "trainer" ? (
                   <>
                     <td className="text-lg">
                       <button
