@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import SectionHeading from "../../ShareComponent/SectionHeading/SectionHeading";
 import biceps from "../../assets/TIMETABLE/biceps.webp";
 import body from "../../assets/TIMETABLE/body.webp";
@@ -10,6 +11,9 @@ import yoga from "../../assets/TIMETABLE/yoga.webp";
 const BookedPage = () => {
   return (
     <div className="pt-20">
+      <Helmet>
+        <title>GoLan/BookedPage</title>
+      </Helmet>
       <div className="">
         <SectionHeading
           titel={"Silver"}

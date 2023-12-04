@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import SectionHeading from "../../ShareComponent/SectionHeading/SectionHeading";
+import { Helmet } from "react-helmet-async";
 
 const Details = () => {
   const classDetails = useLoaderData();
@@ -7,6 +8,9 @@ const Details = () => {
 
   return (
     <div className="pt-20">
+      <Helmet>
+        <title>GoLan/Details</title>
+      </Helmet>
       <SectionHeading titel={"Class"} subtitel={"Details"}></SectionHeading>
       <div className="flex flex-col lg:flex-row justify-center items-center gap-6">
         <div className="">

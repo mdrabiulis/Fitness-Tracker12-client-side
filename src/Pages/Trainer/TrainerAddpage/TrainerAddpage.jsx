@@ -3,6 +3,7 @@ import useFirebase from "../../../Hooks/Firebase/useFirebase";
 import useUser from "../../../Hooks/User500/useUser";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const imageKey = import.meta.env.VITE_IMAGE_KEY;
 const imageApi = `https://api.imgbb.com/1/upload?key=${imageKey}`;
@@ -53,6 +54,9 @@ const TrainerAddpage = () => {
 
   return (
     <div className="  max-w-7xl mx-auto mt-7 pt-20">
+      <Helmet>
+        <title>GoLan/TrainerAddpage</title>
+      </Helmet>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="rounded-md  bg-[#eeeff8] px-10">
           <div className="grid md:grid-cols-4 gap-6  ">

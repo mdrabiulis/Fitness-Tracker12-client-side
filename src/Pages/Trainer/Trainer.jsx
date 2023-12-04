@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import useUser from "../../Hooks/User500/useUser";
 import SectionHeading from "../../ShareComponent/SectionHeading/SectionHeading";
 import TrainerCard from "./TrainerCard";
+import { Helmet } from "react-helmet-async";
 
 const Trainer = () => {
   const userData = useUser();
@@ -15,6 +16,9 @@ const Trainer = () => {
 
   return (
     <div className="pt-20">
+      <Helmet>
+        <title>GoLan/Trainer</title>
+      </Helmet>
       <SectionHeading
         titel={"Trainer"}
         subtitel={"Section"}
@@ -26,13 +30,9 @@ const Trainer = () => {
         {trainer.map((item) => (
           <TrainerCard key={item._id} item={item}></TrainerCard>
         ))}
-
-
       </div>
-
     </div>
   );
 };
-
 
 export default Trainer;

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link, useLoaderData } from "react-router-dom";
 
 const TrainerInfo = () => {
@@ -18,6 +19,9 @@ const TrainerInfo = () => {
 
   return (
     <div className="mb-16">
+      <Helmet>
+        <title>GoLan/TrainerInfo</title>
+      </Helmet>
       <div className="pt-20">
         <h2 className="text-6xl font-bold text-center mb-10">Trainer</h2>
         <div className="flex flex-col md:flex-row md:gap-4 lg:gap-0 max-w-7xl mx-auto mb-10">

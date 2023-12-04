@@ -11,10 +11,14 @@ import size from "../../assets/TIMETABLE/size.webp";
 import yoga from "../../assets/TIMETABLE/yoga.webp";
 import ClassesSection from "./ClassesSection";
 import SectionHeading from "../../ShareComponent/SectionHeading/SectionHeading";
+import { Helmet } from "react-helmet-async";
 
 const Classes = () => {
   return (
     <div className="pt-20">
+      <Helmet>
+        <title>GoLan/Classes</title>
+      </Helmet>
       <ClassesSection></ClassesSection>
 
       <SectionHeading titel={"Our"} subtitel={"Schedule"}></SectionHeading>
