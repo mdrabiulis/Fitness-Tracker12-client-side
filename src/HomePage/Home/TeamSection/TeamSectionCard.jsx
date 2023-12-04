@@ -6,7 +6,7 @@ const TeamSectionCard = ({ item }) => {
   const { name, img, Special } = item;
 
   return (
-    <Link to={'/trainer'}>
+    <Link to={"/trainer"}>
       <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-80">
           <img src={img} alt={name} />
@@ -15,7 +15,7 @@ const TeamSectionCard = ({ item }) => {
           <h4 className="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             {name}
           </h4>
-          <p className="text-[#FF5D28] font-medium ">{Special}</p>
+          <p className="text-[#F9A31C] font-medium ">{Special}</p>
         </div>
         <SocialIcon></SocialIcon>
       </div>
@@ -24,6 +24,6 @@ const TeamSectionCard = ({ item }) => {
 };
 
 TeamSectionCard.propTypes = {
-  item: PropTypes.object
+  item: PropTypes.object,
 };
 export default TeamSectionCard;

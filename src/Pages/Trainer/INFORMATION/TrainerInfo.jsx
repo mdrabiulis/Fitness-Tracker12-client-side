@@ -1,11 +1,7 @@
-
 import { Link, useLoaderData } from "react-router-dom";
-
-
 
 const TrainerInfo = () => {
   const detailsData = useLoaderData();
-
 
   const {
     name,
@@ -19,8 +15,6 @@ const TrainerInfo = () => {
     special,
   } = detailsData;
   const { fitness, meditation, yoga } = skills;
-
-
 
   return (
     <div className="mb-16">
@@ -95,10 +89,14 @@ const TrainerInfo = () => {
         </div>
       </div>
 
-     <div className="max-w-xs mx-auto ">
-     <Link to={'/cat'}><button className="bg-[#FF5D28] p-1 md:p-2 rounded-md text-white "> CTA button</button></Link>
-     </div>
-
+      <div className="max-w-xs mx-auto ">
+        <Link to={"/cat"}>
+          <button className="bg-[#F9A31C] p-1 md:p-2 rounded-md text-white ">
+            {" "}
+            CTA button
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

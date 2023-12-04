@@ -10,7 +10,7 @@ const imageApi = `https://api.imgbb.com/1/upload?key=${imageKey}`;
 const TrainerAddpage = () => {
   const { user } = useFirebase();
   const userData = useUser();
-const navigate = useNavigate()
+  const navigate = useNavigate();
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = async (data) => {
@@ -45,8 +45,8 @@ const navigate = useNavigate()
           showConfirmButton: false,
           timer: 1500,
         });
-         reset();
-         navigate('/bookedpage')
+        reset();
+        navigate("/bookedpage");
       }
     }
   };
@@ -209,7 +209,7 @@ const navigate = useNavigate()
             ></textarea>
           </div>
           <div className=" my-10 pb-10 ">
-            <button className="w-full bg-[#FF5D28] h-12 text-white rounded-md">
+            <button className="w-full bg-[#F9A31C] h-12 text-white rounded-md">
               Applied Now
             </button>
           </div>

@@ -43,7 +43,7 @@ const Classes = () => {
                     06AM-08AM
                   </h3>
                   <h2 className="font-bold">WEIGHT LOOSE</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -55,7 +55,7 @@ const Classes = () => {
                     08AM-10AM
                   </h3>
                   <h2 className="font-bold">CARDIO</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -67,7 +67,7 @@ const Classes = () => {
                     10AM-01PM
                   </h3>
                   <h2 className="font-bold">YOGA</h2>
-                  <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                  <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   <img
@@ -79,7 +79,7 @@ const Classes = () => {
                     01PM-02PM
                   </h3>
                   <h2 className="font-bold">FITNESS</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -91,7 +91,7 @@ const Classes = () => {
                     04PM-06PM
                   </h3>
                   <h2 className="font-bold">KARATE</h2>
-                  <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3>
+                  <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -103,7 +103,7 @@ const Classes = () => {
                     06PM-07PM
                   </h3>
                   <h2 className="font-bold">BOXING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -115,7 +115,7 @@ const Classes = () => {
                     07PM-08PM
                   </h3>
                   <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                  <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -127,7 +127,7 @@ const Classes = () => {
                     08PM-09PM
                   </h3>
                   <h2 className="font-bold">BODY BUILDING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@ const Classes = () => {
                   {/* <img src={size} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06AM-08AM</h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -151,13 +151,13 @@ const Classes = () => {
                     08AM-10AM
                   </h3>
                   <h2 className="font-bold">CARDIO</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   <img
@@ -169,7 +169,7 @@ const Classes = () => {
                     01PM-02PM
                   </h3>
                   <h2 className="font-bold">FITNESS</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -181,7 +181,7 @@ const Classes = () => {
                     04PM-06PM
                   </h3>
                   <h2 className="font-bold">KARATE</h2>
-                  <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3>
+                  <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -193,13 +193,13 @@ const Classes = () => {
                     06PM-07PM
                   </h3>
                   <h2 className="font-bold">BOXING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={rope} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">07PM-08PM</h3>
                 <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -211,7 +211,7 @@ const Classes = () => {
                     08PM-09PM
                   </h3>
                   <h2 className="font-bold">BODY BUILDING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
               </div>
             </div>
@@ -223,19 +223,19 @@ const Classes = () => {
                   {/* <img src={size} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06AM-08AM</h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={run} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">08AM-10AM</h3>
                 <h2 className="font-bold">CARDIO</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   <img
@@ -247,7 +247,7 @@ const Classes = () => {
                     01PM-02PM
                   </h3>
                   <h2 className="font-bold">FITNESS</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -259,19 +259,19 @@ const Classes = () => {
                     04PM-06PM
                   </h3>
                   <h2 className="font-bold">KARATE</h2>
-                  <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3>
+                  <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={boxing} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06PM-07PM</h3>
                 <h2 className="font-bold">BOXING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={rope} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">07PM-08PM</h3>
                 <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -283,7 +283,7 @@ const Classes = () => {
                     08PM-09PM
                   </h3>
                   <h2 className="font-bold">BODY BUILDING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
               </div>
             </div>
@@ -295,7 +295,7 @@ const Classes = () => {
                   {/* <img src={size} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06AM-08AM</h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -307,25 +307,25 @@ const Classes = () => {
                     08AM-10AM
                   </h3>
                   <h2 className="font-bold">CARDIO</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   {/* <img src={body} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">01PM-02PM</h3>
                 <h2 className="font-bold">FITNESS</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">04PM-06PM</h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -337,7 +337,7 @@ const Classes = () => {
                     06PM-07PM
                   </h3>
                   <h2 className="font-bold">BOXING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -349,13 +349,13 @@ const Classes = () => {
                     07PM-08PM
                   </h3>
                   <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                  <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={biceps} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">08PM-09PM</h3>
                 <h2 className="font-bold">BODY BUILDING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
               </div>
             </div>
@@ -367,13 +367,13 @@ const Classes = () => {
                   {/* <img src={size} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06AM-08AM</h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={run} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">08AM-10AM</h3>
                 <h2 className="font-bold">CARDIO</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -385,19 +385,19 @@ const Classes = () => {
                     10AM-01PM
                   </h3>
                   <h2 className="font-bold">YOGA</h2>
-                  <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                  <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   {/* <img src={body} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">01PM-02PM</h3>
                 <h2 className="font-bold">FITNESS</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">04PM-06PM</h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -409,13 +409,13 @@ const Classes = () => {
                     06PM-07PM
                   </h3>
                   <h2 className="font-bold">BOXING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={rope} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">07PM-08PM</h3>
                 <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -427,7 +427,7 @@ const Classes = () => {
                     08PM-09PM
                   </h3>
                   <h2 className="font-bold">BODY BUILDING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
               </div>
             </div>
@@ -445,31 +445,31 @@ const Classes = () => {
                     06AM-08AM
                   </h3>
                   <h2 className="font-bold">WEIGHT LOOSE</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={run} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">08AM-10AM</h3>
                 <h2 className="font-bold">CARDIO</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   {/* <img src={body} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">01PM-02PM</h3>
                 <h2 className="font-bold">FITNESS</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">04PM-06PM</h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -481,7 +481,7 @@ const Classes = () => {
                     06PM-07PM
                   </h3>
                   <h2 className="font-bold">BOXING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -493,7 +493,7 @@ const Classes = () => {
                     07PM-08PM
                   </h3>
                   <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                  <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -505,7 +505,7 @@ const Classes = () => {
                     08PM-09PM
                   </h3>
                   <h2 className="font-bold">BODY BUILDING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
               </div>
             </div>
@@ -517,7 +517,7 @@ const Classes = () => {
                   {/* <img src={size} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06AM-08AM</h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -529,13 +529,13 @@ const Classes = () => {
                     08AM-10AM
                   </h3>
                   <h2 className="font-bold">CARDIO</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                   <img
@@ -547,19 +547,19 @@ const Classes = () => {
                     01PM-02PM
                   </h3>
                   <h2 className="font-bold">FITNESS</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">04PM-06PM</h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   {/* <img src={boxing} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06PM-07PM</h3>
                 <h2 className="font-bold">BOXING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -571,7 +571,7 @@ const Classes = () => {
                     07PM-08PM
                   </h3>
                   <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                  <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
                 </div>
                 <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                   <img
@@ -583,7 +583,7 @@ const Classes = () => {
                     08PM-09PM
                   </h3>
                   <h2 className="font-bold">BODY BUILDING</h2>
-                  <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                  <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
                 </div>
               </div>
             </div>

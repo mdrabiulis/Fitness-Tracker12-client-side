@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const FeaturedCard = ({ item }) => {
   const { title, subtitle, img } = item;
@@ -6,7 +6,7 @@ const FeaturedCard = ({ item }) => {
     <div className="flex">
       <div className="card w-96 bg-base-100 shadow-xl ml-7">
         <figure className="px-10 pt-10">
-          <img src={img} alt={title} className="rounded-xl bg-[#FF5D28]" />
+          <img src={img} alt={title} className="rounded-xl bg-[#F9A31C]" />
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title ">{title}</h2>
@@ -17,6 +17,6 @@ const FeaturedCard = ({ item }) => {
   );
 };
 FeaturedCard.propTypes = {
-    item:PropTypes.object,
-}
+  item: PropTypes.object,
+};
 export default FeaturedCard;

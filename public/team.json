@@ -1,67 +1,50 @@
 [
-    {
-      "image": "https://i.ibb.co/SRhw6M5/7.png",
-      "name": "YogaFit Restore",
-      "date": "2023-01-01",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.c sollicitudin..",
-      "author": "Backdoor",
-      "categories": "Home, Special Needs, YogaFit"
-    },
-    {
-      "image": "https://i.ibb.co/Cn7qY1N/8.png",
-      "name": "YogaFit Core",
-      "date": "2023-02-15",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
-      "author": "Jane Smith",
-      "categories": "For you, Home, YogaFit"
-    },
-    {
-      "image": "https://i.ibb.co/tbfJg5Q/9.png",
-      "name": "Private & Group Lessons",
-      "date": "2023-03-20",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
-      "author": "Sam Johnson",
-      "categories": "For you, Home, YogaFit"
-    },
-    {
-      "image": "image_url_4.jpg",
-      "name": "YogaFit For Beginners",
-      "date": "2023-04-10",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
-      "author": "Emily Brown",
-      "categories": "For you, Home, YogaFit"
-    },
-    {
-      "image": "https://i.ibb.co/fFtwVjZ/5.png",
-      "name": "The Skinny Advantage In Muscle Building",
-      "date": "2023-05-05",
-      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequu ntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolo rem ipsum quia dolor sit amet, consectetur, adipisci velit.sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-      "author": "Alex Wilson",
-      "categories": "Muscle Building"
-    },
-    {
-      "image": "https://i.ibb.co/cYnYQ7y/4.png",
-      "name": "The Skinny Advantage In Muscle Building",
-      "date": "2023-06-18",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
-      "author": "Ella Miller",
-      "categories": "Skinny Advantage In Muscle Building"
-    },
-    {
-      "image": "https://i.ibb.co/3NzXGsG/1.png",
-      "name": "How to keep your Body Healthy",
-      "date": "2023-07-22",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
-      "author": "Liam Davis",
-      "categories": "Body Healthy"
-    },
-    {
-      "image": "https://i.ibb.co/7J3f2Yk/6.png",
-      "name": "YogaFit For Seniors",
-      "date": "2023-08-30",
-      "description": "Quisque pellentesque nibh ut sem elementum pulvinar. Integer bibendum, ligula a dapibus bibendum, massa lectus condimentum augue, sit amet rhoncus nibh arcu ut urna. Nam imperdiet id lectus sed vestibulum. Ut tempor libero sit amet metus fermentum ullamcorper. Nullam scelerisque iaculis purus eu varius. Integer molestie in leo et consectetur. Donec varius velit quis tellus eleifend iaculis. Aenean mi nulla, aliquam placerat orci non, maximus semper ligula. Donec dictum massa et pulvinar maximus. Nunc ut felis a lorem vestibulum posuere. Proin nulla erat, fringilla a sem vel, tincidunt finibus neque. Etiam porta urna eget neque imperdiet efficitur. Aliquam odio orci, vehicula in interdum ultricies, bibendum in velit.",
-      "author": "Sophia Lee",
-      "categories": "For you, YogaFit"
-    }
-  ]
-  
+  {
+    "image": "https://i.ibb.co/jMks2Hp/Untitled-5.png",
+    "name": "Michale K. Stebbins",
+    "rating": 4.2,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "image": "https://i.ibb.co/vjR7sLr/Untitled-2.png",
+    "name": "Barbara T. Stewart",
+    "rating": 3.8,
+    "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+  },
+  {
+    "image": "https://i.ibb.co/MVh1rvn/Untitled-4.png",
+    "name": "Carlos M. Sala",
+    "rating": 4.5,
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "image": "https://i.ibb.co/SfFpTXH/coaches2-1.jpg",
+    "name": "Roger J. Garcia",
+    "rating": 4.0,
+    "details": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "image": "https://i.ibb.co/3rzD1T6/team-image2.jpg",
+    "name": "Leroy E. Ruppe",
+    "rating": 3.5,
+    "details": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+  },
+  {
+    "image": "https://i.ibb.co/547f8rZ/trainer-details.jpg",
+    "name": "Ginger C. Olea",
+    "rating": 4.8,
+    "details": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt."
+  },
+  {
+    "image": "https://i.ibb.co/DR1Wgm6/team-image8.jpg",
+    "name": "Melinda J. Galeano",
+    "rating": 3.2,
+    "details": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
+  },
+  {
+    "image": "https://i.ibb.co/Ltr2jK2/team-image5.jpg",
+    "name": "Nick H. Smith",
+    "rating": 4.7,
+    "details": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
+  }
+]

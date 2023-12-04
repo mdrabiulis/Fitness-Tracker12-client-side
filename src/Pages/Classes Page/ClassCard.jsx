@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const ClassCard = ({ item }) => {
-  const {_id, image, name, date } = item;
+  const { _id, image, name, date } = item;
   return (
     <div className="flex">
       <div className="card w-96 bg-base-100 shadow-xl">
@@ -19,7 +19,9 @@ const ClassCard = ({ item }) => {
         </div>
         <div className="max-w-full mx-auto ">
           <Link to={`/details/${_id}`}>
-            <button className="uppercase bg-[#FF5D28] p-1 md:p-2 rounded-md mb-5 text-white">show details</button>
+            <button className="uppercase bg-[#F9A31C] p-1 md:p-2 rounded-md mb-5 text-white">
+              show details
+            </button>
           </Link>
         </div>
       </div>

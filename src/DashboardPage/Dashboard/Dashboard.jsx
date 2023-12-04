@@ -9,6 +9,91 @@ const Dashboard = () => {
                     <li><NavLink to={"/dashboard/admin"}>Admin</NavLink></li>
                     <li><NavLink to={"/dashboard/trainer"}>Trainer</NavLink></li>
                     <li><NavLink to={"/dashboard/member"}>Member</NavLink></li>
+                    <div className="divider"></div>
+                    <li>
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/gallery"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Gallery
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/trainer"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Trainer
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/classes"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Classes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/dashboard"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Dashboard
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/community"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#538CDF] underline"
+                    : ""
+                }
+              >
+                Community
+              </NavLink>
+            </li>
                 </ul>
             </div>
             <div className="flex-1">

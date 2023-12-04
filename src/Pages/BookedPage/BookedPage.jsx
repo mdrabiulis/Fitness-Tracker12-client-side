@@ -25,19 +25,19 @@ const BookedPage = () => {
                 {/* <img src={size} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06AM-08AM</h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={run} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">08AM-10AM</h3>
                 <h2 className="font-bold">CARDIO</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                 <img
@@ -49,7 +49,7 @@ const BookedPage = () => {
                   01PM-02PM
                 </h3>
                 <h2 className="font-bold">FITNESS</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto" />
@@ -57,19 +57,19 @@ const BookedPage = () => {
                   04PM-06PM
                 </h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3>
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={boxing} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">06PM-07PM</h3>
                 <h2 className="font-bold">BOXING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={rope} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">07PM-08PM</h3>
                 <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -81,7 +81,7 @@ const BookedPage = () => {
                   08PM-09PM
                 </h3>
                 <h2 className="font-bold">BODY BUILDING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
             </div>
           </div>
@@ -102,9 +102,13 @@ const BookedPage = () => {
               quantity.
             </p>
             <p>
-            Physical Conditioning: Karate requires strength, flexibility, and endurance. Incorporate cardiovascular exercises, strength training, and flexibility exercises into your routine.
+              Physical Conditioning: Karate requires strength, flexibility, and
+              endurance. Incorporate cardiovascular exercises, strength
+              training, and flexibility exercises into your routine.
             </p>
-            <button className="bg-[#FF5D28] p-1 md:p-2 rounded-md text-white text-center" >Join Now</button>
+            <button className="bg-[#F9A31C] p-1 md:p-2 rounded-md text-white text-center">
+              Join Now
+            </button>
           </div>
         </div>
       </div>
@@ -129,31 +133,31 @@ const BookedPage = () => {
                   06AM-08AM
                 </h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={run} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">08AM-10AM</h3>
                 <h2 className="font-bold">CARDIO</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={yoga} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">10AM-01PM</h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                 {/* <img src={body} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">01PM-02PM</h3>
                 <h2 className="font-bold">FITNESS</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 {/* <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto"/>
                 <h3 className="bg-zinc-800 text-white mx-14 p-1 rounded-lg">04PM-06PM</h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3> */}
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3> */}
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -165,7 +169,7 @@ const BookedPage = () => {
                   06PM-07PM
                 </h3>
                 <h2 className="font-bold">BOXING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -177,7 +181,7 @@ const BookedPage = () => {
                   07PM-08PM
                 </h3>
                 <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -189,7 +193,7 @@ const BookedPage = () => {
                   08PM-09PM
                 </h3>
                 <h2 className="font-bold">BODY BUILDING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
             </div>
           </div>
@@ -210,9 +214,13 @@ const BookedPage = () => {
               quantity.
             </p>
             <p>
-            Physical Conditioning: Karate requires strength, flexibility, and endurance. Incorporate cardiovascular exercises, strength training, and flexibility exercises into your routine.
+              Physical Conditioning: Karate requires strength, flexibility, and
+              endurance. Incorporate cardiovascular exercises, strength
+              training, and flexibility exercises into your routine.
             </p>
-            <button className="bg-[#FF5D28] p-1 md:p-2 rounded-md text-white text-center" >Join Now</button>
+            <button className="bg-[#F9A31C] p-1 md:p-2 rounded-md text-white text-center">
+              Join Now
+            </button>
           </div>
         </div>
       </div>
@@ -237,7 +245,7 @@ const BookedPage = () => {
                   06AM-08AM
                 </h3>
                 <h2 className="font-bold">WEIGHT LOOSE</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img src={run} alt="" className="w-20 h-20 max-w-fit mx-auto" />
@@ -245,7 +253,7 @@ const BookedPage = () => {
                   08AM-10AM
                 </h3>
                 <h2 className="font-bold">CARDIO</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -257,7 +265,7 @@ const BookedPage = () => {
                   10AM-01PM
                 </h3>
                 <h2 className="font-bold">YOGA</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px]  border-yellow-400 space-y-2">
                 <img
@@ -269,7 +277,7 @@ const BookedPage = () => {
                   01PM-02PM
                 </h3>
                 <h2 className="font-bold">FITNESS</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img src={box} alt="" className="w-20 h-20 max-w-fit mx-auto" />
@@ -277,7 +285,7 @@ const BookedPage = () => {
                   04PM-06PM
                 </h3>
                 <h2 className="font-bold">KARATE</h2>
-                <h3 className="text-[#FF5D28] font-medium">KEAF SHEN</h3>
+                <h3 className="text-[#F9A31C] font-medium">KEAF SHEN</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -289,7 +297,7 @@ const BookedPage = () => {
                   06PM-07PM
                 </h3>
                 <h2 className="font-bold">BOXING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -301,7 +309,7 @@ const BookedPage = () => {
                   07PM-08PM
                 </h3>
                 <h2 className="font-bold">AEROBICS & SKIPPING</h2>
-                <h3 className="text-[#FF5D28] font-medium">LEFEW D. LOEE</h3>
+                <h3 className="text-[#F9A31C] font-medium">LEFEW D. LOEE</h3>
               </div>
               <div className=" items-center text-center p-5 border-[1px] border-yellow-400 space-y-2">
                 <img
@@ -313,30 +321,34 @@ const BookedPage = () => {
                   08PM-09PM
                 </h3>
                 <h2 className="font-bold">BODY BUILDING</h2>
-                <h3 className="text-[#FF5D28] font-medium">RACHEL ADAM</h3>
+                <h3 className="text-[#F9A31C] font-medium">RACHEL ADAM</h3>
               </div>
             </div>
             <div className="max-w-7xl mx-auto">
-            <p>
-              Consistent Practice: Regular and consistent practice is crucial
-              for improvement in karate. Set aside dedicated time for training
-              each week.
-            </p>
-            <p>
-              Focus on Basics: Mastering the fundamentals is key to becoming
-              proficient in karate. Pay close attention to stances, punches,
-              kicks, and blocks.
-            </p>
-            <p>
-              Correct Technique: Ensure that your techniques are executed with
-              proper form and technique. Quality is more important than
-              quantity.
-            </p>
-            <p>
-            Physical Conditioning: Karate requires strength, flexibility, and endurance. Incorporate cardiovascular exercises, strength training, and flexibility exercises into your routine.
-            </p>
-            <button className="bg-[#FF5D28] p-1 md:p-2 rounded-md text-white text-center" >Join Now</button>
-          </div>
+              <p>
+                Consistent Practice: Regular and consistent practice is crucial
+                for improvement in karate. Set aside dedicated time for training
+                each week.
+              </p>
+              <p>
+                Focus on Basics: Mastering the fundamentals is key to becoming
+                proficient in karate. Pay close attention to stances, punches,
+                kicks, and blocks.
+              </p>
+              <p>
+                Correct Technique: Ensure that your techniques are executed with
+                proper form and technique. Quality is more important than
+                quantity.
+              </p>
+              <p>
+                Physical Conditioning: Karate requires strength, flexibility,
+                and endurance. Incorporate cardiovascular exercises, strength
+                training, and flexibility exercises into your routine.
+              </p>
+              <button className="bg-[#F9A31C] p-1 md:p-2 rounded-md text-white text-center">
+                Join Now
+              </button>
+            </div>
           </div>
         </div>
       </div>

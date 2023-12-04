@@ -14,8 +14,7 @@ const TeamSection = () => {
     });
   }, [userData]);
 
-  const teamdata = team.slice(0,4)
-
+  const teamdata = team.slice(0, 4);
 
   return (
     <div>

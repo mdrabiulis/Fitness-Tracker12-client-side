@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import useFirebase from "../../Hooks/Firebase/useFirebase";
 import Swal from "sweetalert2";
+import logo from "../../../public/logo.png";
 
 const Navbar = () => {
   const { user, usersignOut } = useFirebase();
@@ -13,7 +14,7 @@ const Navbar = () => {
           icon: "success",
           title: "Your work has been saved",
           showConfirmButton: false,
-          timer: 1500
+          timer: 1500,
         });
       })
       .catch(() => {});
@@ -48,7 +49,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-[#F9A31C] underline"
                       : ""
                   }
                 >
@@ -62,7 +63,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-white bg-[#F9A31C] p-2 rounded-md"
                       : ""
                   }
                 >
@@ -76,7 +77,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-white bg-[#F9A31C] p-2 rounded-md"
                       : ""
                   }
                 >
@@ -90,7 +91,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-white bg-[#F9A31C] p-2 rounded-md"
                       : ""
                   }
                 >
@@ -104,7 +105,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-white bg-[#F9A31C] p-2 rounded-md"
                       : ""
                   }
                 >
@@ -118,7 +119,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-white bg-[#F9A31C] p-2 rounded-md"
                       : ""
                   }
                 >
@@ -132,7 +133,7 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-[#538CDF] underline"
+                      ? "text-white bg-[#F9A31C] p-2 rounded-md"
                       : ""
                   }
                 >
@@ -141,7 +142,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <img src={logo} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-6 text-lg font-bold">
@@ -152,7 +153,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -166,7 +167,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -180,7 +181,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -194,7 +195,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -208,7 +209,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -222,7 +223,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -236,7 +237,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >
@@ -267,7 +268,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#538CDF] underline"
+                    ? "text-white bg-[#F9A31C] p-2 rounded-md"
                     : ""
                 }
               >

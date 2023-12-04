@@ -10,7 +10,6 @@ const Subscribe = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
-
     adminData.post("/newsletter", data).then((res) => {
       if (res.data.acknowledged) {
         Swal.fire({
@@ -56,7 +55,7 @@ const Subscribe = () => {
 
             <button
               onClick={handleSubmit(onSubmit)}
-              className="bg-[#FF5D28] rounded-lg w-20 h-[50px]  text-white "
+              className="bg-[#F9A31C] rounded-lg w-20 h-[50px]  text-white "
             >
               Subscribe
             </button>
