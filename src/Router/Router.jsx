@@ -74,7 +74,7 @@ const Router = createBrowserRouter([
         element: <Details></Details>,
         loader: ({ params }) =>
           fetch(
-            `https://assignment12-server-side-em9z42ifs.vercel.app/classes/${params.id}`
+            `https://fitness-tracker12-server-side.vercel.app/classes/${params.id}`
           ),
       },
       {
@@ -82,7 +82,7 @@ const Router = createBrowserRouter([
         element: <TrainerInfo></TrainerInfo>,
         loader: ({ params }) =>
           fetch(
-            `https://assignment12-server-side-em9z42ifs.vercel.app/trainer/${params.id}`
+            `https://fitness-tracker12-server-side.vercel.app/trainer/${params.id}`
           ),
       },
     ],

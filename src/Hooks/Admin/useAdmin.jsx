@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import useFirebase from "../Firebase/useFirebase";
 
 const adminData = axios.create({
-  baseURL: "https://assignment12-server-side-em9z42ifs.vercel.app",
+  baseURL: "https://fitness-tracker12-server-side.vercel.app",
 });
 
 const useAdmin = () => {

@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import useFirebase from "../../Hooks/Firebase/useFirebase";
 import Swal from "sweetalert2";
-import logo from "../../../public/logo.png";
+import logo from "/logo.png";
 
 const Navbar = () => {
   const { user, usersignOut } = useFirebase();
